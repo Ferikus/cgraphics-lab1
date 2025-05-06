@@ -127,5 +127,10 @@ namespace Filters
             backgroundWorker1.RunWorkerAsync(filter);
         }
 
+        private void переносToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filter = new Shift();
+            backgroundWorker1.RunWorkerAsync(filter);
+        }
     }
 }

@@ -63,6 +63,7 @@
     <Compile Include="SpotFilters\GrayScaleFilter.cs" />
     <Compile Include="SpotFilters\InvertFilter.cs" />
     <Compile Include="SpotFilters\SepiaFilter.cs" />
+    <Compile Include="SpotFilters\Shift.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
