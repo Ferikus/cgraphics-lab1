@@ -53,16 +53,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="MatrixFilters\BlurFilter.cs" />
-    <Compile Include="MatrixFilters\GaussianFilter.cs" />
-    <Compile Include="MatrixFilters\SharpnessFilter.cs" />
+    <Compile Include="MatrixFilters\Blur.cs" />
+    <Compile Include="MatrixFilters\Median.cs" />
+    <Compile Include="MatrixFilters\MotionBlur.cs" />
+    <Compile Include="MatrixFilters\GaussianBlur.cs" />
+    <Compile Include="MatrixFilters\Sharpness.cs" />
     <Compile Include="MatrixFilters\SobelFilter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpotFilters\BrightnessFilter.cs" />
-    <Compile Include="SpotFilters\GrayScaleFilter.cs" />
-    <Compile Include="SpotFilters\InvertFilter.cs" />
-    <Compile Include="SpotFilters\SepiaFilter.cs" />
+    <Compile Include="SpotFilters\Brightness.cs" />
+    <Compile Include="SpotFilters\GrayScale.cs" />
+    <Compile Include="SpotFilters\Invert.cs" />
+    <Compile Include="SpotFilters\Rotate.cs" />
+    <Compile Include="SpotFilters\Sepia.cs" />
     <Compile Include="SpotFilters\Shift.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -1,21 +1,21 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1.Filters
+namespace Filters
 {
-    internal class MotionBlur : MatrixFilter
+    class MotionBlur : MatrixFilter
     {
         public MotionBlur()
         {
-            int n = 7;
-
-            kernel = new float[n,n];
-            for (int i = 0; i < n; i++)
+            int size = 10;
+            kernel = new float[size, size];
+            for (int i = 0; i < size; ++i)
             {
-                kernel[i, i] = 1f / (float)n;
+                kernel[i, i] = 1.0f / size;
             }
         }
     }

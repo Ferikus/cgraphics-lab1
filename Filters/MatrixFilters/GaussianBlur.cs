@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class GaussianFilter : MatrixFilter
+    class GaussianBlur : MatrixFilter
     {
         public void createGaussianKernel(int radius, float sigma)
         {
@@ -24,7 +24,7 @@ namespace Filters
                     kernel[i, j] /= norm;
         }
 
-        public GaussianFilter()
+        public GaussianBlur()
         {
             createGaussianKernel(3, 2);
         }

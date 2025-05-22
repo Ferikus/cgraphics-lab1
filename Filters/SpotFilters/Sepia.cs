@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class SepiaFilter : Filters
+    class Sepia : Filters
     {
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class SharpnessFilter : MatrixFilter
+    class Sharpness : MatrixFilter
     {
-        public SharpnessFilter()
+        public Sharpness()
         {
             int sizeX = 3;
             int sizeY = 3;

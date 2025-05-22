@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class BrightnessFilter : Filters
+    class Brightness : Filters
     {
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {

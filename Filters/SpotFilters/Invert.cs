@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class InvertFilter : Filters
+    class Invert : Filters
     {
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Filters
 {
-    class BlurFilter : MatrixFilter
+    class Blur : MatrixFilter
     {
-        public BlurFilter()
+        public Blur()
         {
             int sizeX = 3;
             int sizeY = 3;
