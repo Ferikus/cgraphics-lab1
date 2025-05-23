@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdditionalFilters\GrayWorld.cs" />
+    <Compile Include="AdditionalFilters\PerfectMirror.cs" />
     <Compile Include="Filters.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -53,10 +55,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="LinearStretch.cs" />
+    <Compile Include="ListFilters\Glass.cs" />
+    <Compile Include="ListFilters\Waves.cs" />
+    <Compile Include="MathMorphology\Closing.cs" />
+    <Compile Include="MathMorphology\Dilation.cs" />
+    <Compile Include="MathMorphology\Erosion.cs" />
+    <Compile Include="MathMorphology\Gradient.cs" />
+    <Compile Include="MathMorphology\Opening.cs" />
     <Compile Include="MatrixFilters\Blur.cs" />
     <Compile Include="MatrixFilters\Median.cs" />
     <Compile Include="MatrixFilters\MotionBlur.cs" />
     <Compile Include="MatrixFilters\GaussianBlur.cs" />
+    <Compile Include="MatrixFilters\Scharr.cs" />
     <Compile Include="MatrixFilters\Sharpness.cs" />
     <Compile Include="MatrixFilters\SobelFilter.cs" />
     <Compile Include="Program.cs" />
